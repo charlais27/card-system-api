@@ -13,4 +13,22 @@ public class TranCategory {
 
     private Integer tranTypeCd;
     private String tranCatTypeDescription;
+	public Integer getTranCatCd() {
+		return tranCatCd;
+	}
+	public void setTranCatCd(Integer tranCatCd) {
+		this.tranCatCd = tranCatCd;
+	}
+	public Integer getTranTypeCd() {
+		return tranTypeCd;
+	}
+	public void setTranTypeCd(Integer tranTypeCd) {
+		this.tranTypeCd = tranTypeCd;
+	}
+	public String getTranCatTypeDescription() {
+		return tranCatTypeDescription;
+	}
+	public void setTranCatTypeDescription(String tranCatTypeDescription) {
+		this.tranCatTypeDescription = tranCatTypeDescription;
+	}
 }

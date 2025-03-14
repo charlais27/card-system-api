@@ -12,4 +12,20 @@ public class TranType {
     private Integer tranTypeCd;
 
     private String tranTypeDescription;
+
+	public Integer getTranTypeCd() {
+		return tranTypeCd;
+	}
+
+	public void setTranTypeCd(Integer tranTypeCd) {
+		this.tranTypeCd = tranTypeCd;
+	}
+
+	public String getTranTypeDescription() {
+		return tranTypeDescription;
+	}
+
+	public void setTranTypeDescription(String tranTypeDescription) {
+		this.tranTypeDescription = tranTypeDescription;
+	}
 }
